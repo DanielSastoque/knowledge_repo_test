@@ -41,7 +41,7 @@ DEBUG = False
 # ---------------------------------------------------
 # Database configuration
 # ---------------------------------------------------
-SQLALCHEMY_DATABASE_URI = 'sqlite:///:memory:'
+SQLALCHEMY_DATABASE_URI = os.environ.get('DB_URI', 'sqlite:///:memory:')
 # If you are using a MySQL database, you must specify the URI as
 # demonstrated below.
 # SQLALCHEMY_DATABASE_URI = 'mysql://username:password@hostname/database'
