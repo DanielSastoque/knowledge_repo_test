@@ -69,9 +69,7 @@ DB_AUTO_UPGRADE = False
 # used for that class below.
 # By default, the knowledge repo offers:
 # ['debug', 'oauth2', 'bitbucket', 'github', 'google', 'ldap']
-AUTH_PROVIDERS = ['google']
-OAUTH_GOOGLE_CLIENT_ID = os.environ.get('OAUTH_GOOGLE_CLIENT_ID', '')
-OAUTH_GOOGLE_CLIENT_SECRET = os.environ.get('OAUTH_GOOGLE_CLIENT_SECRET', '')
+AUTH_PROVIDERS = ['debug']
 
 # If you are going to use a OAuth provider, you will need to specify client ids
 # and private tokens. This can be done by instantiating instances of
