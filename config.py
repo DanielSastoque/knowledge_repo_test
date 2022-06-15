@@ -57,7 +57,7 @@ DB_AUTO_CREATE = True
 # you are probably interested in minimising risk to stability and handling
 # database upgrades manually. Manual database migrations can be
 # performed using `knowledge_repo --repo <> db_upgrade ...`.
-DB_AUTO_UPGRADE = False
+DB_AUTO_UPGRADE = True
 
 
 # ---------------------------------------------------
